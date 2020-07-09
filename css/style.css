@@ -1,0 +1,71 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+     position: sticky;
+     top: 0;
+     z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right,#0b0450,#a709a7);
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    display: flex;
+  align-items: center;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600 ;
+    float: center;
+text-align: center;    
+}
+.bottom-img{
+    width: 100%;
+}
+.fas fa-bar{
+    color: #fff !important;
+    font-size: 30px ;
+}
+.navbar-toggler{
+    outline: none;
+}
+#banner{
+    background-image: linear-gradient(to right,#0b0450,#a709a7);
+    color: #fff !important;
+padding-top: 2%;
+}
+h1{
+    text-align: left;
+ }
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.row{
+    position: relative;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+#services{
+    padding: 20px;
+ }
+.card1{
+    width: 100px;
+    margin-top: 20px;
+}
+h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
