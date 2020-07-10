@@ -89,9 +89,8 @@ h1{
     margin-top: 20px;
 }
 .jumbotron{
-    background-color:black;
-    border-radius: 50px;
-     filter: blur(0.4px);
+    background-color:white;
+      filter: blur(0.4px);
   box-shadow:
    0px 20px 20px rgba(0,0,0,0.2),
   0px 5px 10px rgba(0,0,0,0.2),
@@ -110,6 +109,7 @@ h1{
 
      border-radius: 10px;
      filter: blur(0.4px);
+     margin:6px;
   box-shadow:
   /*bottom shadow*/
   0px 20px 20px rgba(0,0,0,0.2),
