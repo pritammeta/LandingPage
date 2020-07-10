@@ -82,3 +82,15 @@ h4{
 .footer-box img{
     margin-bottom: 20px;
 }
+.footer-box a{
+ padding: 5px;
+ color: #fff !important;
+ font-weight: 600 ;
+
+}
+.social-links a{
+padding: 10px;
+color: #fff !important;
+text-align: center;
+font-size: 30px 
+}
