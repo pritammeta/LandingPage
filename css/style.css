@@ -16,17 +16,15 @@ body{
     padding-left: 30px !important;
     padding-right: 30px !important;
     display: flex;
-  align-items: center;
-}
+  }
 .navbar-nav li{
     padding: 0 10px;
 }
 .navbar-nav li a{
     color: #fff !important;
     font-weight: 600 ;
-    float: center;
-text-align: center;    
-}
+ }
+
 .bottom-img{
     width: 100%;
 }
@@ -93,6 +91,9 @@ h4{
  color: #fff !important;
  font-weight: 600 ;
 
+}
+.btn-primary btn-lg btn-block{
+    padding: 10px;
 }
 .social-links a{
 padding: 10px;
