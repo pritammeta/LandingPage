@@ -30,6 +30,12 @@ text-align: center;
 .bottom-img{
     width: 100%;
 }
+
+.fa-chevron-circle-down{
+    color: #fff !important;
+    font-size: 40px ;
+}
+
 .fas fa-bar{
     color: #fff !important;
     font-size: 30px ;
