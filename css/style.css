@@ -69,3 +69,16 @@ h4{
     margin-top: 25px;
     text-transform: uppercase;
 }
+#footer{
+    background-image: linear-gradient(to right,#0b0450,#a709a7);
+    color: #fff;
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    margin-bottom: 20px;
+}
