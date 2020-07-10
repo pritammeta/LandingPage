@@ -11,6 +11,26 @@ body{
      top: 0;
      z-index: 10;
 }
+.img-fluid{
+    background-color:whitesmoke;
+     filter: blur(0.4px);
+  box-shadow:
+  /*bottom shadow*/
+  0px 20px 20px rgba(15, 15, 15, 0.2),
+  0px 5px 10px rgba(0,0,0,0.2),
+  /*long bottom shadow*/
+  0px 70px 50px rgba(0,0,0,0.4),
+  /*right shadow*/
+  30px 50px 50px rgba(0,0,0,0.2),
+  /*left shadow*/
+  -30px 50px 50px rgba(0,0,0,0.2),
+  /*right inset*/
+  inset 20px 0px 60px rgba(0,0,0,0.1),
+  /*left inset*/
+  inset -20px 0px 60px rgba(0,0,0,0.1);
+}
+
+
 .navbar{
     background-image: linear-gradient(to right,#0b0450,#a709a7);
     padding-left: 30px !important;
@@ -67,6 +87,43 @@ h1{
 .card1{
     width: 100px;
     margin-top: 20px;
+}
+.jumbotron{
+    background-color:black;
+    border-radius: 50px;
+     filter: blur(0.4px);
+  box-shadow:
+   0px 20px 20px rgba(0,0,0,0.2),
+  0px 5px 10px rgba(0,0,0,0.2),
+  
+  0px 70px 50px rgba(0,0,0,0.4),
+  
+  30px 50px 50px rgba(0,0,0,0.2),
+  /*left shadow*/
+  -30px 50px 50px rgba(0,0,0,0.2),
+  /*right inset*/
+  inset 20px 0px 60px rgba(0,0,0,0.1),
+  /*left inset*/
+  inset -20px 0px 60px rgba(0,0,0,0.1);
+}
+.card{
+
+     border-radius: 10px;
+     filter: blur(0.4px);
+  box-shadow:
+  /*bottom shadow*/
+  0px 20px 20px rgba(0,0,0,0.2),
+  0px 5px 10px rgba(0,0,0,0.2),
+  /*long bottom shadow*/
+  0px 70px 50px rgba(0,0,0,0.4),
+  /*right shadow*/
+  30px 50px 50px rgba(0,0,0,0.2),
+  /*left shadow*/
+  -30px 50px 50px rgba(0,0,0,0.2),
+  /*right inset*/
+  inset 20px 0px 60px rgba(0,0,0,0.1),
+  /*left inset*/
+  inset -20px 0px 60px rgba(0,0,0,0.1);
 }
 .card.card-img-top{
     width: 100px;
